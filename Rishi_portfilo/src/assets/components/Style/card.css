@@ -1,0 +1,48 @@
+@import url("root.css");
+
+.container_info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--white);
+  justify-content: center;
+  border-radius: 15px;
+}
+.container_info h1 {
+  display: flex;
+  width: 70px;
+  transform: translateY(+38px);
+  margin-left: 35px;
+  background-color: var(--blue);
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgb(160, 160, 160);
+  border-radius: 15px;
+  margin-bottom: 5px;
+}
+
+.contact ul {
+  display: flex;
+  margin-top: 25px;
+  align-self: flex-start;
+  flex-direction: column;
+  gap: 5px;
+  list-style: none;
+}
+
+.contact button {
+  display: flex;
+  width: 100px;
+  height: 1.7rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #0b7c95;
+  border-radius: 10px;
+}
