@@ -1,9 +1,9 @@
 @import url("./assets/components/Style/root.css");
 .container_body {
   display: flex;
-  margin: 0;
   flex-direction: column;
   background-color: var(--main-color);
+  gap: 15px;
 }
 
 .container_card {
