@@ -17,7 +17,7 @@
   height: 16.5rem;
   justify-content: flex-end;
   align-items: end;
-  background-color: #295d54;
+  background-color: var(--white);
   border-radius: 10px;
 }
 
@@ -99,4 +99,15 @@
 
 .github:hover {
   color: rgb(5, 0, 0);
+}
+
+@keyframes transitionIn {
+  form {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
 }

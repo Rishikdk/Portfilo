@@ -5,19 +5,30 @@
   background-color: var(--main-color);
   gap: 15px;
 }
+.container_header {
+  margin-top: 50px;
+  display: flex;
+  opacity: 0.9;
+  animation: fadeOut linear;
+  animation-timeline: view();
+  animation-range: exit -70px;
+}
 
 .container_card {
   display: flex;
   flex-direction: row;
   width: 90%;
   margin: 0 auto;
-  gap: 15px;
+  gap: 25px;
   align-items: start;
 }
 
 .right_card {
   flex: 0.6;
   margin-top: 5px;
+  opacity: 0;
+  transform: translateX(60px);
+  animation: transitionIn 2s linear forwards;
   display: flex;
   padding: 5px;
 }
@@ -25,6 +36,9 @@
 .left_card {
   flex: 1;
   margin-top: 5px;
+  opacity: 0;
+  transform: translateX(-50px);
+  animation: transitionIn 2s linear forwards;
   display: flex;
   height: auto;
 }
@@ -33,6 +47,9 @@
   flex: 3;
   margin-top: 5px;
   display: flex;
+  opacity: 0;
+  transform: translateY(80px);
+  animation: transitionIn 1s linear forwards;
   border-radius: 15px;
   background-color: white;
 }
@@ -48,4 +65,24 @@
   background-color: #efefef;
   border-radius: 10px;
   padding: 5px;
+}
+
+@keyframes transitionIn {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes transitionInn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
 }

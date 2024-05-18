@@ -8,4 +8,5 @@
   background-color: var(--white);
   border-radius: 15px;
   padding: 5px 10px;
+  box-shadow: 7px 7px 35px #898989, -7px -7px 35px #ffffff;
 }

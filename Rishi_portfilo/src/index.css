@@ -1,0 +1,9 @@
+@import url("./assets/components/Style/root.css");
+
+/* .root {
+  background-color: var(--main-color);
+} */
+
+body {
+  background-color: var(--main-color);
+}

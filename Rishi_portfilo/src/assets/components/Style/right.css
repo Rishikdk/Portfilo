@@ -7,6 +7,7 @@
   height: 90vh;
   width: 100%;
   border-radius: 15px;
+  box-shadow: 7px 7px 35px #898989, -7px -7px 35px #ffffff;
 }
 
 .container_right ul {
