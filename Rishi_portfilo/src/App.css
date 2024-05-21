@@ -8,9 +8,10 @@
 .container_header {
   margin-top: 70px;
   display: flex;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 90px;
   opacity: 0.9;
-  transform: translateY(-25px);
-  animation: transitionIn 1s linear forwards;
   animation: fadeOut linear;
   animation-timeline: view();
   animation-range: exit -70px;
