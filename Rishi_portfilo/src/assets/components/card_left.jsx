@@ -15,7 +15,7 @@ class Cardleft extends React.Component {
               <li>
                 <FaMobile />
                 <label>Phone</label>
-                <p>+91 9876543210</p>
+                <p>+977 9865993612</p>
               </li>
 
               <li>
