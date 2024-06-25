@@ -12,12 +12,9 @@ class CardMid extends React.Component {
           </div>
           <div className="contain">
             <p>
-              Miss Diamond I love you i love you i love you i love you I love
-              you i love you i love you i love you I love you i love you i love
-              you i love you I love you i love you i love you i love you I love
-              you i love you i love you i love you I love you i love you i love
-              you i love you I love you i love you i love you i love you I love
-              you i love you i love you i love you Diamond
+              hi there are many people who have created this card mid and have
+              created their own cards and have created their own cards with
+              different
             </p>
             <img img src={Profile}></img>
           </div>
