@@ -16,7 +16,7 @@ class CardMid extends React.Component {
               created their own cards and have created their own cards with
               different
             </p>
-            <img img src={Profile}></img>
+            {/* <img img src={Profile}></img> */}
           </div>
         </div>
       </>
